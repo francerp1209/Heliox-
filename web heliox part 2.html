@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Heliox</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            text-shadow: 0 0 20px #00ff00;
+        }
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            background-color: #222;
+            padding: 10px;
+        }
+        .navbar button {
+            margin-left: 10px;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .reglement {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #00ff00;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="location.href='#accueil'">Accueil</button>
+        <button onclick="document.getElementById('reglement').classList.toggle('hidden')">Règlement</button>
+        <button onclick="window.open('https://discord.gg/ZSQdtMWXV4', '_blank')">Rejoindre Discord</button>
+    </div>
+    <h1>EMPIRE HELIOX</h1>
+    <div id="reglement" class="reglement hidden">
+        <p>La lecture de ce règlement est obligatoire ! Lisez le attentivement et contactez un membre du staff si un point n'est pas compris.</p>
+        <p>Tout actes néfastes à autrui sera sanctionné, qu'il soit indiqué dans ce règlement ou non.</p>
+        <h2>➡️ I. MEMBRES :</h2>
+        <ul>
+            <li>Le respect du staff et des membres est obligatoire sur le serveur.</li>
+            <li>Vos pseudos ne doivent pas être inappropriés (sexuellement explicites, offensants, etc.), illisibles et ne doivent pas contenir des caractères vulgaires.</li>
+            <li>Toute forme de violence, haine, propos à caractère sexuel etc. peut être sanctionné.</li>
+        </ul>
+        <h2>➡️ II. SALONS :</h2>
+        <ul>
+            <li>Ne pas envoyer de message haineux ou vexant aux autres membres du serveur.</li>
+            <li>Les commandes des bots sont autorisées dans le salon <#1494393559090987148></li>
+        </ul>
+        <h2>➡️ III. SPAM ET MENTIONS :</h2>
+        <ul>
+            <li>Le Spam de tout type, abus d'émojis, etc. pourra être sanctionné si continuation excessive.</li>
+            <li>Pour les mentions excessives, cela sera sanctionné également.</li>
+            <li>Si vous avez une requête, un problème, une question, merci de demander l'aide des support.</li>
+            <li>Ne pas ouvrir de tickets inutilement.</li>
+        </ul>
+        <h2>➡️ IV. PUBLICITÉS :</h2>
+        <ul>
+            <li>Les pubs en message privé sont aussi interdites, en cas de soucis le membre peut en référer au staff.</li>
+            <li>Les seules pubs autorisées sont celles de nos partenaires et sont envoyées dans un salon spécifique.</li>
+        </ul>
+        <p>Cordialement Zenix</p>
+        <p>||@everyone||</p>
+        <button onclick="document.getElementById('accept').classList.remove('hidden')">Accepter</button>
+    </div>
+    <div id="accept" class="hidden">
+        <h2>Bot de l'Empire Heliox</h2>
+        <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=1492238642318672024', '_blank')">Ayane</button>
+        <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=1481317122423652393', '_blank')">Zenix</button>
+        <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=1506976561382035586', '_blank')">1209_t1 APP</button>
+    </div>
+</body>
+</html>
